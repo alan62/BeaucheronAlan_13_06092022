@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+  }
+  header a {
+    color: black;
+    text-decoration: none;
+  }
+  header .header__img {
+    width: 200px;
+    max-width: 100%;
+    margin-left: 21px;
+  }
+  header .header__signIn {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+  header .header__signIn i {
+    margin-right: 5px;
+  }
+  header .header__signIn:hover {
+    text-decoration: underline;
+  }
+  header .header__signOut {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    font-weight: bold;
+  }
+  header .header__signOut p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  header .header__signOut i {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  header .header__signOut i:hover {
+    cursor: pointer;
+  }
+  header .header__signOut .header__logOut {
+    display: flex;
+    align-items: center;
+  }
