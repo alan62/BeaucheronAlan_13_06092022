@@ -1,5 +1,5 @@
-import React from "react"
-import "./spinner.css"
+import React from "react";
+import "./spinner.css";
 /**
  * Spinner
  * @returns {ReactElement}
@@ -15,7 +15,7 @@ const Spinner = () => {
       <span className="sixthLetter">n</span>
       <span className="seventhLetter">g</span>
     </section>
-  )
-}
+  );
+};
 
-export default Spinner
+export default Spinner;
