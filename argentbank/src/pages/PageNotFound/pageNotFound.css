@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+    min-height: 75vh;
+    background-color: #12002b;
+}
+
+.pageNotFound__h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 92px;
+    padding-top: 10vh;
+    color: aliceblue;
+    margin-bottom: 150px;
+
+}
+
+.pageNotFound__a {
+    text-align: center;
+    color: aliceblue;
+    font-size: 32px;
+    text-decoration: none;
+    position: relative;
+}
+
+@media screen and (max-width: 800px) {
+
+    .container .pageNotFound__h1 {
+        font-size: 64px;
+    }
+}
