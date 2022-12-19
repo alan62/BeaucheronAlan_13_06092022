@@ -1,0 +1,32 @@
+.userContainer {
+    text-align: center;
+    background-color: #12002b;
+    margin-top: 35px;
+}
+
+.userContainer__header {
+    margin-bottom: 30px;
+    color: #fff; 
+}
+
+.accountContainer {
+    text-align: left;
+}
+
+.userContainer__h1 {
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.edit__button {
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cta {
+    display: flex;
+}

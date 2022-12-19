@@ -15,7 +15,7 @@ const Home = () => {
     return () => {
       clearTimeout();
     };
-  }, []); // fin du spinner aprés 1s3 en changeant son état de true => false
+  }, []); // fin du spinner aprés 1s en changeant son état de true => false
 
   document.title = "Argent Bank - Home Page";
 
